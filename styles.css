@@ -3,11 +3,24 @@
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  padding: 2px 0px;
+  padding: 2px 2px;
 }
 th{
 	background-color: red;
 	color: white;
-	width: 150px;
+	width: 200px;
 	text-align: left;
+}
+td:not(:first-child){
+	text-align: right;
+}
+.waist{
+	background-color: #e9967a;
+	color: white;
+}
+.chest{
+	background-color: #b222;
+}
+.sleeves{
+	background-color: lightgray;
 }
